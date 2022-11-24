@@ -22,7 +22,7 @@ main{
 body{
     background-image: url('../imagens/fundo-madeira.jpg'); /*Fundo Madeira no Body*/
     background-repeat: no-repeat; /*Para nao repetir a imagem*/
-    background-size: cover; /*Para que o tamanho cubra toda a tela*/
+    background-size: cover; /*Para que o tamanhodo fundo cubra toda a tela*/
     background-attachment: fixed; /*Fixamos o fundo madeira, enquanto as outras imagens se movimentem*/
 }
 
