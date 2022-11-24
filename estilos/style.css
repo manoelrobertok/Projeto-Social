@@ -36,9 +36,18 @@ section#telefone{
     position: absolute; /*Posicionamento*/
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /*Centralizamos o "container Iphone" no centro da tela*/
+    transform: translate(-50%, -50%); /*Centralizamos o "container Iphone" no centro da tela*/   
+    
+}
 
-    
-    
+iframe#tela{
+    position: relative;
+    top:79px;
+    left: 21px;  /*Posicionamento da imagem home em relação a tela do Iphone.*/
+    width: 269px;
+    height: 473px;
+    border: 1px white solid ;
+  
+
 }
 
