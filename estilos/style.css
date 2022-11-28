@@ -36,8 +36,27 @@ section#telefone{
     position: absolute; /*Posicionamento*/
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /*Centralizamos o "container Iphone" no centro da tela*/   
-    
+    transform: translate(-50%, -50%); /*Centralizamos o "container Iphone" no centro da tela*/     
+}
+
+section#redes-sociais img{ /*Configuração para as IMAGENS dos link's da redes sociais*/
+
+    width: 60px; /*Tamanho das logos das redes sociais*/
+    margin: 10px;  /*Espaço entre as logos*/
+    border-radius: 50%; /*Arredondamento das logos*/
+    box-shadow: 2px 2px rgba(32, 32, 32, 0.747); /* Sombras na logos das redes sociais */
+    box-sizing: border-box; /*Configuração para que a borda faça parte da "caixa" da logo.*/
+}
+
+section#redes-sociais img:hover{
+    border: 1px solid white;
+    transform: translate(-3px, -3px); /*Ao passar o mouse, a logo terá um pequeno deslocamento.*/
+    box-shadow: 5px 5px 10px rgba(29, 28, 28, 0.616); /*Sombras do deslocamento.*/
+    transition: transform .3s, border 1s; /*Ao passar o mouse, haverá uma transição da logo em 0.3segundos e, da borda branca em 1 segundo*/
+}
+
+section#redes-sociais{ /*Configuração de posição das redes sociais*/
+    text-align: right;
 }
 
 iframe#tela{
@@ -46,8 +65,7 @@ iframe#tela{
     left: 21px;  /*Posicionamento da imagem home em relação a tela do Iphone.*/
     width: 269px;
     height: 473px;
-    border: 1px white solid ;
-  
+    border: 2px white solid; 
 
 }
 
